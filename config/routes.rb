@@ -1,9 +1,13 @@
 Homepage98lumens::Application.routes.draw do
+  get "static_pages/signin"
+
   get "static_pages/home"
 
   get "static_pages/dashboard"
 
   get "static_pages/about"
+
+  get "static_pages/signin"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
